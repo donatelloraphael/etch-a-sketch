@@ -20,7 +20,7 @@ let board = {
 			boxes[i].classList.remove('blacked');
 		}
 	}
-}
+};
 
 window.onload = function() {
 	let reset = document.getElementById('reset');
@@ -33,4 +33,4 @@ window.onload = function() {
 		board.createBoard(newSize);
 	}
 
-}
+};
